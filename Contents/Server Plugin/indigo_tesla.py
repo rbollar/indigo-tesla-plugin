@@ -2,9 +2,10 @@ import yaml
 import indigo
 import logging
 
-import pycarwings.connection
-import pycarwings.userservice
-import pycarwings.vehicleservice
+import teslajson.teslajson
+#import pycarwings.connection
+#import pycarwings.userservice
+#import pycarwings.vehicleservice
 
 import distance_scale
 
@@ -21,13 +22,13 @@ CHARGING_VALUE_MAP = {
 
 distance_format = distance_scale.Miles()
 
-class IndigoLeaf:
+class IndigoTesla:
 	def __init__(self, dev, userservice, vehicleservice):
 		self.dev = dev
 		self.vin = dev.pluginProps["address"]
 		self.userservice = userservice
 		self.vehicleservice = vehicleservice
-		self.log = logging.getLogger('indigo.nissanleaf.plugin')
+		self.log = logging.getLogger('indigo.tesla.plugin')
 
 	def start_charging(self):
 		self.vehicleservice.start_charge(self.vin)

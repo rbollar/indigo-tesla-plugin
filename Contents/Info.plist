@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>PluginVersion</key>
-	<string>0.0.1</string>
+	<string>0.0.1.1</string>
 	<key>ServerApiVersion</key>
 	<string>1.0</string>
 	<key>IwsApiVersion</key>
 	<string>1.0.0</string>
 	<key>CFBundleDisplayName</key>
-	<string>Nissan Leaf</string>
+	<string>Tesla Model S + X</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.drjason.nissanleaf</string>
+	<string>com.bollar.tesla</string>
 	<key>CFBundleVersion</key>
 	<string>1.0.0</string>
 	<key>CFBundleURLTypes</key>

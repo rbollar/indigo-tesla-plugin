@@ -23,8 +23,8 @@
 
 <Devices>
 
-	<Device type="custom" id="nissanLeaf">
-		<Name>Nissan Leaf</Name>
+	<Device type="custom" id="tesla">
+		<Name>Tesla</Name>
 		<ConfigUI>
 			<Field id="address" type="menu">
 				<List class="self" method="get_vins"/>

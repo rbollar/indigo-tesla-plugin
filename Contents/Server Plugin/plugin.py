@@ -4,9 +4,10 @@
 import indigo
 import logging
 
-import pycarwings.connection
-import pycarwings.userservice
-import pycarwings.vehicleservice
+import teslajson.teslajson
+#import pycarwings.connection
+#import pycarwings.userservice
+#import pycarwings.vehicleservice
 
 import indigo_leaf
 
